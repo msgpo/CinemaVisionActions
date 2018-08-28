@@ -1,0 +1,5 @@
+# This CinemaVision Action file uses a command to set the Hyperion color to white for 5 seconds
+#
+
+python://CinemaStart.py
+

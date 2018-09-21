@@ -25,20 +25,20 @@ def send_message(message, host=socket_host, port=socket_port, path="/core", sche
 
 
 # mute Command
-send_message('PleaseBeSilent')
-time.sleep(1)
+# send_message('PleaseBeSilent')
+# time.sleep(1)
 
-send_message('turn the wall lights on')
+send_message('turn the wall lights on silently')
 time.sleep(2)
 
-send_message('set the wall lights to white')
+send_message('set the wall lights to white silently')
 time.sleep(2)
 
-send_message('set the wall lights to 100 percent')
+send_message('set the wall lights to 100 percent silently')
 time.sleep(15)
 
 # un-mute Command
-send_message('YouCanSpeakNow')
-print('no longer silent')
+# send_message('YouCanSpeakNow')
+# print('no longer silent')
 
 
